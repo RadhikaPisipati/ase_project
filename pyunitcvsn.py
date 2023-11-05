@@ -26,7 +26,7 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(12, self.calc.subtract(15, 3), "Subtraction is wrong")
 
     def test_multiply(self):
-        self.assertEqual(16, self.calc.multiply(5, 6), "Multiplication is wrong")
+        self.assertEqual(30, self.calc.multiply(5, 6), "Multiplication is wrong")
 
     def test_divide(self):
         self.assertEqual(4, self.calc.divide(12, 3), "Division is wrong")
