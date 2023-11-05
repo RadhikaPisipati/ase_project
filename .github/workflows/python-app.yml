@@ -26,4 +26,4 @@ jobs:
     
     - name: Python application
       run: |
-        python byeworld.py
+        python pyunitcvsn.py
